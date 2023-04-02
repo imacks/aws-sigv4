@@ -1,0 +1,6 @@
+Part of the source code in this project has been modified from AWS SDK for Go at 
+https://github.com/aws/aws-sdk-go-v2 and https://github.com/aws/aws-sdk-go:
+
+AWS SDK for Go
+Copyright 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+Copyright 2014-2015 Stripe, Inc.
