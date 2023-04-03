@@ -13,7 +13,7 @@ Step 1: make a canonical request string in the format "<METHOD>\n<URI>\n<QUERY>\
       characters (including space) in both name and value must be percent-encoded. If value is empty, it should end with 
       the "=" character, such as "Foo=". Lastly, sort by key name. If there are multiple key-value pairs with the same key 
       name, they are sorted by their values. Use an empty string if there is no query component.
-    - HEADERS: for each header in request that should be protected by the signature, its name and value, delimited by 
+    - HEADERS: for each header in request that should be protected by the signature, its name and value, followed by 
       newline ("\n"). Header names must be in lower-case and sorted. Values are separated from its header name by ":". 
       Multiple values must be comma separated, with leading and trailing spaces removed. Multiple spaces must be replaced 
       with single space. The "host" header (or ":authority" if HTTP/2) must be included. If the request contains any 
