@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"code.lizoc.com/webber/webber/awssigv4/aws-sigv4"
+	"github.com/imacks/aws-sigv4"
 )
 
 func ExampleHTTPSigner_Sign() {
